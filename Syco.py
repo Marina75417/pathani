@@ -167,12 +167,12 @@ from io import BytesIO
 
 def key():
     clear()
-    key = "Ms-MARINA{HACKER}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
+    key = "MR-MARINA{HACKER}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
     print(f" \033[1;32m TOOL IS PAID YOU NEED APPROVAL ")
     print(f" \033[1;32m Your Login Key is  : " MARINA+ key)
     buffer = BytesIO()
     curl = pycurl.Curl()
-    curl.setopt(curl.URL, "https://raw.githubusercontent.com/Silentboy302/Approval/main/Approve.txt")
+    curl.setopt(curl.URL, "https://raw.githubusercontent.com/Silentgirl302/Approval/main/Approve.txt")
     curl.setopt(curl.WRITEDATA, buffer)
     curl.perform()
     curl.close()
