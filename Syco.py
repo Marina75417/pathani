@@ -129,7 +129,7 @@ elif bit == '32bit':
 def clear():
     os.system('clear')
     print(logo)
-logo = h""                                         ("""   
+logo =                                          ("""   
   __  __            _             
  |  \/  |          (_)            
  | \  / | __ _ _ __ _ _ __   __ _ 
