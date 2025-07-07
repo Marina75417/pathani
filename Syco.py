@@ -130,8 +130,8 @@ def clear():
     os.system('clear')
     print(logo)
 logo =                                          ("""   
-  __  __            _             
- |  \/  |          (_)            
+  __  __                   
+ |  \/  |                   
  | \  / | __ _ _ __ _ _ __   __ _ 
  | |\/| |/ _` | '__| | '_ \ / _` |
  | |  | | (_| | |  | | | | | (_| |
@@ -169,7 +169,7 @@ def key():
     clear()
    key = "MR-HAMZAA{SHAPTAR}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
     print(f" \033[1;32m TOOL IS PAID YOU NEED APPROVAL ")
-    print(f" \033[1;32m Your Login Key is  : " MARINA+ key)
+    print(f" \033[1;32m Your Login Key is  : " + key)
     buffer = BytesIO()
     curl = pycurl.Curl()
     curl.setopt(curl.URL, "https://raw.githubusercontent.com/Silentgirl302/Approval/main/Approve.txt")
