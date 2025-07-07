@@ -167,7 +167,7 @@ from io import BytesIO
 
 def key():
     clear()
-    key = "MR-MARINA{HACKER}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
+   key = "MR-HAMZAA{SHAPTAR}|•|✓" + str(os.geteuid()) + str(os.getlogin()).replace('u0_a', '')
     print(f" \033[1;32m TOOL IS PAID YOU NEED APPROVAL ")
     print(f" \033[1;32m Your Login Key is  : " MARINA+ key)
     buffer = BytesIO()
